@@ -1,0 +1,75 @@
+[
+    {
+      "question": "In the Least Recently Used (LRU) page replacement algorithm, which page is replaced??",
+      "answerOptions": [
+        {"text": " The page that was used least recently", "isCorrect": true},
+        {"text": "The page that will not be used for the longest time", "isCorrect": false},
+        {"text": "The page with the highest page number", "isCorrect": false},
+        {"text": "The page with the lowest frame number", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a typical state of a process in an operating system??",
+      "answerOptions": [
+        {"text": "File System Type", "isCorrect": true},
+        {"text": "Program Counter", "isCorrect": false},
+        {"text": "CPU Registers", "isCorrect": false},
+        {"text": "None", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "During a context switch, the operating system?",
+      "answerOptions": [
+        {"text": "Saves the state of the current process and loads the state of the next process", "isCorrect": false},
+        {"text": "Switches the CPU from one process to another", "isCorrect": false},
+        {"text": " Terminates the current process and starts another", "isCorrect": true},
+        {"text": "Loads the next process into the same memory space", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "Which of the following is TRUE about multithreading in an operating system??",
+      "answerOptions": [
+        {"text": " Each thread has its own program counter, stack, and local variables.", "isCorrect": true},
+        {"text": " Threads of a process share local variables, heap, and file descriptors.", "isCorrect": false},
+        {"text": "Creating a new process is typically faster than creating a new thread.", "isCorrect": false},
+        {"text": "context swtching in threads are more time consuming in heavy machines", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "In a preemptive scheduling algorithm, the CPU?",
+      "answerOptions": [
+        {"text": "Is allocated to the process that arrived first", "isCorrect": true},
+        {"text": " Can be taken away from a running process if a higher priority process arrives", "isCorrect": true},
+        {"text": "Is allocated to the process with the longest burst time first", "isCorrect": false},
+        {"text": " Is allocated to the process that arrived first", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "What mechanism is used to handle communication between parent and child processes??",
+      "answerOptions": [
+        {"text": "Shared Memory", "isCorrect": false},
+        {"text": " Pipes", "isCorrect": false},
+        {"text": "Message Passing", "isCorrect": false},
+        {"text": " All of the above", "isCorrect": true}
+      ]
+    },
+    {
+        "question": "Which IPC mechanism is best suited for communication between unrelated processes??",
+        "answerOptions": [
+          {"text": "Shared Memory", "isCorrect": false},
+          {"text": " Pipes", "isCorrect": false},
+          {"text": "Message Queues", "isCorrect": true},
+          {"text": " All of the above", "isCorrect": false}
+        ]
+      },
+      {
+        "question": "Which file access method is most efficient for random access of large files?",
+        "answerOptions": [
+          {"text": "Direct Access", "isCorrect": true},
+          {"text": "Indexed Sequential Access", "isCorrect": false},
+          {"text": "Message Passing Access", "isCorrect": false},
+          {"text": "Sequential Access", "isCorrect": false}
+        ]
+      }
+
+  ]
